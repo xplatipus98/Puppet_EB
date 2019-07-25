@@ -24,7 +24,7 @@ await page.click(BUTTON_SELECTOR);
 await page.waitForNavigation();
   
   
-  //browser.close();
+  browser.close();
 }
 
 run();
